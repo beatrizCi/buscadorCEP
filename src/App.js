@@ -46,19 +46,17 @@ function App() {
         </button>
       </div>
 
-{Object.keys(cep).lenght> 0 && (
-  <main className='main'>
-        <h2> CEP: {cep.cep} </h2>
-        <span> {cep.logradouro}</span>
-        <span> Complemento: {cep.complemento}</span>
-        <span>{cep.localidade}</span>
-        <span>{cep.cidade}-{cep.uf}</span>
-
-      </main>
-)}
+        {Object.keys(cep) && (
+        <main className='main'>
+              <h2> CEP: {cep.cep} </h2>
+              <span> {cep.logradouro}</span>
+              <span> Bairro: {cep.bairro}</span>
+              <span> Cidade: {cep.localidade} -{cep.uf} </span>
+        </main>
+      )}
       
 
-      </div>
+    </div>
 
       
   );
