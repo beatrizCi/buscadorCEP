@@ -1,6 +1,9 @@
 Brazilian ZIP Code Search using React.js 🇧🇷
 
 This project is a simple Brazilian ZIP Code search application built using React.js. It utilizes the Correios API to fetch and display address information based on the entered ZIP code.
+https://zip-brazil.vercel.app/
+
+![image](https://github.com/user-attachments/assets/17840ddb-4674-4822-961d-d8b17bb459c2)
 
 Features:
 ZIP Code Lookup: 🔍 Enter a Brazilian ZIP code and retrieve the corresponding address details.
